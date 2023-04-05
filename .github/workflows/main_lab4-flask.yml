@@ -38,6 +38,7 @@ jobs:
           name: python-app
           path: |
             . 
+            !erica_venv/
 
   deploy:
     runs-on: ubuntu-latest
